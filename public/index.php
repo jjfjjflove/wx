@@ -11,10 +11,10 @@
 
 // [ 应用入口文件 ]
 namespace think;
-echo __DIR__ . '/../thinkphp/base.php';
+//echo __DIR__ . '/../thinkphp/base.php';
 // 加载基础文件
-require __DIR__ . '/../thinkphp/base.php';
-echo 'test';
+require __DIR__ . '/thinkphp/base.php';
+//echo 'test';
 // 支持事先使用静态方法设置Request对象和Config对象
 
 // 执行应用并响应
