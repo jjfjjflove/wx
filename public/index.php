@@ -11,7 +11,7 @@
 
 // [ 应用入口文件 ]
 namespace think;
-
+echo 'nihao';die();
 // 加载基础文件
 require   '/../thinkphp/base.php';
 
